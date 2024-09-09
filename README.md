@@ -18,7 +18,7 @@ b) ```campania.py```: esta clase representa una campaña que contiene una colecc
 c) ```error.py```: este archivo define excepciones personalizadas que manejan errores específicos del negocio, como ```LargoExcedidoError``` o ```SubTipoInvalidoError```. Definir excepciones específicas hace que sea más fácil depurar y manejar errores en tiempo de ejecución.
 d) ```demo.py```: este archivo es un ejemplo de cómo interactuar con las clases ```Campania``` y ```Anuncio```. Usa ```try/except``` para capturar y manejar excepciones. Si ocurre un error, como un nombre de campaña inválido o un subtipo incorrecto, el programa lo captura y registra en ```error.log```, en lugar de detenerse.
 
-##3. Detalles adicionales de la prueba de Programación Avanzada
+## 3. Detalles adicionales de la prueba de Programación Avanzada
 Se solicita implementar la API de una aplicación de campañas publicitarias. Cada clase en el presente código representa una parte esencial de esta API. Algunas reglas clave de esta aplicación son:
 - **Validaciones de los atributos**: el nombre de la campaña debe exceder los 250 caracteres y el subtipo de anuncio debe ser válido para el tipo de anuncio que se crea (Video, Display, Social).
 - **Excepciones personalizadas**: se debe hacer uso de las excepciones personalizadas para manejar errores específicos, como ```SubTipoInvalidoError``` cuando un subtipo de anuncio no sea válido.
